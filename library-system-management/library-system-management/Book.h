@@ -32,6 +32,9 @@ public:
     void setEmail(string email){
         this -> email = email;
     }
+    void setName(string name){
+        this -> name = name;
+    }
     void print(){
         cout  << "Name: "<< name << ", Email: "<< email << endl;
         cout << "================================================\n";
